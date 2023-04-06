@@ -7,9 +7,9 @@ export interface Student {
   secondName: string,
   dateOfBirth: string,
   email: string,
-  mobile: string,
+  mobile: number,
   profileImageUrl: string,
   genderId: string,
   gender: Gender,
-  adress: Address
+  address: Address
 }
